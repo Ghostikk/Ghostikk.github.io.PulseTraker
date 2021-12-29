@@ -1,0 +1,52 @@
+.feedback {
+  min-height: 900px;
+  padding: 0px 0 50px 0;
+  &__description {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0d0d0d;
+    margin-bottom: 60px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 60px;
+    &:last-child {
+      padding-bottom: 0px;
+    }
+    &-avatar {
+      width: 169px;
+      height: 169px;
+      margin-right: 60px;
+      img {
+        min-width: 100%;
+      }
+    }
+    &-firstname {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      color: #0d0d0d;
+      padding-bottom: 10px;
+      span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+      }
+    }
+    &-commit {
+      line-height: 25px;
+      max-width: 680px;
+      min-height: 169px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      color: #0d0d0d;
+    }
+  }
+}

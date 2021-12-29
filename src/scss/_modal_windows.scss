@@ -1,0 +1,79 @@
+.overlay {
+  display: none;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.56);
+}
+
+.modal {
+  padding: 30px 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  min-height: 300px; // для валидации
+  background-color: #f2f2f2;
+
+  &__close {
+    position: absolute;
+    top: -25px;
+    right: -40px;
+    font-size: 40px;
+    color: rgb(194, 87, 87);
+    cursor: pointer;
+  }
+
+  &__subtitle {
+    font-size: 19px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+
+  &__description {
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+  }
+
+  .modal_form {
+    padding: 0;
+    padding-top: 20px;
+    max-width: 100%;
+  }
+  button {
+    margin-bottom: 0px;
+  }
+  .error {
+    border: 1px solid red;
+  }
+
+  label.error {
+    display: block;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}
+
+.desc_fz {
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.modal_mod {
+  min-height: 140px;
+}
+
+#consultation,
+#order,
+#thanks {
+  display: none;
+}

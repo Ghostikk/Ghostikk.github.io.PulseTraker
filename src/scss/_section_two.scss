@@ -1,0 +1,54 @@
+.section_two {
+  min-height: 473px;
+  width: 100%;
+
+  &__description {
+    padding-top: 70px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #0d0d0d;
+  }
+
+  &__achievements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    &-img {
+      background-color: rgba($color: #ffffff, $alpha: 0.5);
+      margin: 0 auto;
+      width: 70px;
+      height: 70px;
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    &-expirions {
+      padding-top: 35px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      color: #0d0d0d;
+    }
+    &-description {
+      padding-top: 20px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      a {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #ff0000;
+      }
+    }
+  }
+}

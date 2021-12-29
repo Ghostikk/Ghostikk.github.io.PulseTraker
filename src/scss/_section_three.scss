@@ -1,0 +1,61 @@
+.section_three {
+  min-height: 680px;
+  background: url(../img/background-2_img.png) center (center/cover) no-repeat;
+  &__description {
+    padding-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 54px;
+    color: #ffffff;
+  }
+  &__description-form {
+    padding-top: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+  }
+}
+.form_flex {
+  max-width: 260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  flex-direction: column;
+  padding: 36px 0 108px 0;
+  &__opacity {
+    width: 100%;
+    min-height: 55px;
+    margin: 0px 0px 11px 20px;
+    padding-left: 21px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+  }
+  .consultation_btn {
+    @include button;
+    min-width: 100%;
+    min-height: 55px;
+    font-size: 16px;
+    margin-left: 20px;
+    border: none;
+  }
+}
+
+.section_three form {
+  .error {
+    border: 1px solid red;
+  }
+
+  label.error {
+    color: #ffffff;
+    display: block;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}

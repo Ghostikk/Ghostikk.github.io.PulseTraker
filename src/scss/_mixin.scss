@@ -1,0 +1,20 @@
+@mixin button {
+  display: block;
+  width: 153px;
+  height: 32px;
+  background: #c70101;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgb(213, 243, 213);
+  }
+}

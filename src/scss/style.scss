@@ -1,0 +1,29 @@
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@import "_mixin";
+@import "header";
+@import "section_one";
+@import "section_two";
+@import "section_three";
+@import "slider";
+@import "section_catalog";
+@import "feedback";
+@import "footer_map";
+@import "modal_windows";
+@import "media";
+
+.promo {
+  height: 650px;
+  width: 100%;
+  background: url(../img/background_img.png) center (center/cover) no-repeat;
+}
