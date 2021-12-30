@@ -1,0 +1,16 @@
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  color: aqua;
+  &:hover {
+    color: red;
+  }
+  img {
+    width: 100%;
+    color: aqua;
+  }
+}

@@ -843,6 +843,25 @@ button.button_mini:hover {
   display: none;
 }
 
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  color: aqua;
+}
+
+.pageup:hover {
+  color: red;
+}
+
+.pageup img {
+  width: 100%;
+  color: aqua;
+}
+
 @media (max-width: 1240px) {
   .promo .header {
     justify-content: space-around;

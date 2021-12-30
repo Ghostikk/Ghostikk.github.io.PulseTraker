@@ -144,4 +144,28 @@ $(document).ready(function () {
     });
     return false;
   });
+
+  // появления якоря после прокрутки в 2000 пикселей
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 2000) {
+      $(".pageup").fadeIn();
+    } else {
+      $(".pageup").fadeOut();
+    }
+  });
+
+  // скрипт плавной прокрутки
+  $("a[href*=#]").on("click", function (e) {
+    const anchor = $(this);
+    $("html, body")
+      .stop()
+      .animate(
+        {
+          scrollTop: $(anchor.attr("href")).offset().top,
+        },
+        777
+      );
+    e.preventDefault();
+    return false;
+  });
 });
