@@ -226,8 +226,7 @@
 .section_two__achievements-img {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
-  width: 70px;
-  height: 70px;
+  width: 33%;
 }
 
 .section_two__achievements-img img {
@@ -242,8 +241,8 @@
 .section_two__achievements-expirions {
   padding-top: 35px;
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 19px;
   text-align: center;
   color: #0d0d0d;
 }
@@ -254,6 +253,7 @@
   font-weight: 300;
   font-size: 14px;
   text-align: center;
+  line-height: 20px;
 }
 
 .section_two__achievements-description a {
