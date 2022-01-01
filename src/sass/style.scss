@@ -1,3 +1,9 @@
+@import "libs/normolize";
+@import "libs/stylesheet";
+@import "libs/slick";
+@import "_mixin";
+@import "_animations";
+
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
   margin: 0;
@@ -10,8 +16,6 @@
   margin: 0 auto;
 }
 
-@import "_mixin";
-@import "_animations";
 @import "header";
 @import "section_one";
 @import "section_two";
