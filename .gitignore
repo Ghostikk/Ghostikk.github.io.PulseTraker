@@ -136,4 +136,4 @@ dist
 *.scss.map
 
 ### PHP ###
-/mailer
+scr/mailer
