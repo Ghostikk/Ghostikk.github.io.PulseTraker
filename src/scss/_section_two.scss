@@ -26,6 +26,9 @@
         display: block;
         width: 100%;
       }
+      img.heart-beat {
+        animation: heart-beat 2s ease-in-out infinite;
+      }
     }
     &-expirions {
       padding-top: 35px;

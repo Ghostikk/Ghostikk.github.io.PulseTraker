@@ -10,6 +10,21 @@
   margin: 0 auto;
 }
 
+@keyframes heart-beat {
+  from {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  75% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
+
 .header {
   display: flex;
   text-align: center;
@@ -218,6 +233,10 @@
 .section_two__achievements-img img {
   display: block;
   width: 100%;
+}
+
+.section_two__achievements-img img.heart-beat {
+  animation: heart-beat 2s ease-in-out infinite;
 }
 
 .section_two__achievements-expirions {
@@ -689,6 +708,8 @@ button.button_mini:hover {
 
 .footer__map iframe {
   border: 1px solid #555555;
+  width: 100%;
+  height: 630px;
 }
 
 .footer__map-information {

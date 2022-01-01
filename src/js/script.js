@@ -155,7 +155,7 @@ $(document).ready(function () {
   });
 
   // скрипт плавной прокрутки
-  $("a[href*=#]").on("click", function (e) {
+  $("a[href=#page_up]").on("click", function (e) {
     const anchor = $(this);
     $("html, body")
       .stop()
