@@ -1440,6 +1440,26 @@ button.button_mini:hover {
     font-size: 13px;
     width: 30%;
   }
+  div#consultation {
+    width: 70%;
+  }
+  .form_flex .consultation_btn {
+    font-size: 12px;
+  }
+  .modal__subtitle {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .modal__description {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .modal__close {
+    top: -15%;
+    right: 50%;
+    font-size: 45px;
+    transform: translateX(50%);
+  }
 }
 
 @media (max-width: 450px) {
